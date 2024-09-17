@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Example</title>
+</head>
+<body>
+    
+    <div id="app">
+        <p>{{firstName}} {{lastName}}</p>
+        <!-- Short end for v-click is @click -->
+        <button @click="count++"> + </button> 
+        <label style="margin: 1rem;"> {{count}} </label>
+        <button @click="count--"> - </button>
+    </div> 
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="script/code.js"></script>
+
+</body>
+</html>
